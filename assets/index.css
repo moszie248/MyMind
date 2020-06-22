@@ -6,6 +6,7 @@
     Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
 body {
+  background-color: lightslategray;
   background: rgb(176, 222, 201);
   background: linear-gradient(
     280deg,
@@ -24,7 +25,7 @@ body {
   padding-bottom: 2rem;
 }
 .header-top h1 {
-  color: linen;
+  color: rgb(92, 92, 92);
 }
 
 ul.menu {
@@ -37,14 +38,14 @@ ul.menu li {
   margin-right: 2rem;
 }
 ul.menu a {
-  color: rgb(161, 161, 161);
+  color: rgb(0, 0, 0);
   text-decoration: none;
   transition: 0.3s;
   padding-bottom: 5px;
   border-bottom: 2px solid transparent;
 }
 ul.menu a:hover {
-  color: white;
+  color: rgb(92, 92, 92);
   border-bottom: 2px solid rgb(190, 189, 126);
 }
 
@@ -77,7 +78,7 @@ ul.menu a:hover {
 }
 
 .section-info {
-  color: linen;
+  color: rgb(92, 92, 92);
   margin-top: 1rem;
   margin: 1rem;
 }
@@ -95,7 +96,7 @@ footer {
   justify-items: center;
 }
 .footer-item {
-  color: #fff;
+  color: rgb(92, 92, 92);
 }
 .footer-item p {
   display: flex;
